@@ -1,0 +1,28 @@
+
+@import "tailwindcss";
+@plugin "daisyui";
+
+:root {
+  --primary: #05893E;
+  --primary-content: #F3FBF4;
+  --base-content: #1D271F;
+  --background: #F3FBF4;
+}
+
+@theme inline {
+  --color-primary: var(--primary);
+  --color-primary-content: var(--primary-content);
+  --color-base-content: var(--base-content);
+  --font-sans: var(--font-hind-siliguri);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-hind-siliguri), sans-serif;
+  background: var(--background);
+  color: var(--base-content);
+}
+
